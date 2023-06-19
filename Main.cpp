@@ -128,8 +128,7 @@ int main()
     cout << "Single thread launch \n";
     cout << "Given array is: \n";
     printArray(arr2, arr_size2);
-    // многопоточный запуск
-    
+        
     mergeSort(arr2, 0, arr_size2 - 1);
     
     cout << "\nSorted array is: \n";
